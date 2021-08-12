@@ -15,8 +15,10 @@ use App\Http\Controllers\DanhMucController;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('admin.template.master');
+    return view('admin.template.sidebar');
 });
 
 Route::get('/loai-san-pham/danh-sach', function () {
